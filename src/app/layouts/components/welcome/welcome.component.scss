@@ -1,0 +1,94 @@
+@import "../../../../assets/styles/_variables.scss";
+
+.welcome-section {
+  height: 840px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("/assets/pics/Vector 7.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+}
+.upper-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color: $content-color;
+    font-family: $poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 89.5px;
+  }
+
+  h1 {
+    color: $content-color;
+    font-family: $poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.5px;
+  }
+
+  p {
+    width: 552px;
+    margin-top: 30px;
+    color: $content-color;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.5px;
+  }
+}
+
+.span1 {
+  color: $header-color;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-size: 4.3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 118.5%;
+  word-wrap: break-word;
+}
+.span2 {
+  color: $header-color;
+  font-size: 21px;
+  font-family: $poppins;
+  font-weight: 800;
+  line-height: 24.88px;
+  letter-spacing: 18.86px;
+  word-wrap: break-word;
+}
+
+.exp-btn {
+  border-radius: 20px;
+  background: $header-color;
+  width: 167px;
+  height: 50px;
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  font-family: $poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 125px;
+}
+.help-Btn {
+  border-radius: 71px;
+  background: $header-color;
+  width: 280px;
+  height: 86px;
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  font-family: $poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

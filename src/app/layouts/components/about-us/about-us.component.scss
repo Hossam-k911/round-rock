@@ -1,0 +1,64 @@
+@import "../../../../assets/styles/_variables.scss";
+.about-us {
+  height: 890px;
+  background-image: url("/assets/pics/Rubbish.png");
+  //   background-size: 76%;
+  background-repeat: no-repeat;
+}
+.aboutUs-article {
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  h2 {
+    color: #fff;
+
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: $poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.5px; /* 139.844% */
+  }
+
+  p {
+    color: #fff;
+    width: 538px;
+    font-family: $poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+  }
+}
+
+.curved-section {
+  padding-top: 156px;
+  text-align: right;
+}
+
+.solid-bg {
+  background-image: url("/assets/pics/Vector 8.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 100%;
+}
+
+.helpMe-btn {
+  width: 280px;
+  height: 86px;
+  border-radius: 71px;
+  background: #eec04b;
+  color: #515151;
+  text-align: center;
+  font-family: $poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.helpBtn-holder {
+  padding-left: 812px;
+  padding-top: 147px;
+}

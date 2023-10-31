@@ -3,16 +3,33 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { LandingPageComponent } from './layouts/landing-page/landing-page.component';
+import { WelcomeComponent } from './layouts/components/welcome/welcome.component';
+import { AboutUsComponent } from './layouts/components/about-us/about-us.component';
+import { ServicesComponent } from './layouts/components/services/services.component';
+import { TestyMonialsComponent } from './layouts/components/testy-monials/testy-monials.component';
+import { ContactUsComponent } from './layouts/components/contact-us/contact-us.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './layouts/components/footer/footer.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingPageComponent,
+    WelcomeComponent,
+    AboutUsComponent,
+    ServicesComponent,
+    TestyMonialsComponent,
+    ContactUsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

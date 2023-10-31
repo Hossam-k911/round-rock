@@ -1,0 +1,43 @@
+@import url("../services/services.component.scss");
+@import "../../../../assets/styles/_variables.scss";
+
+.cards-holder {
+  padding-top: 60px;
+  display: contents;
+}
+
+.border-primary {
+  border-radius: 40px;
+  border: 1px solid #6d91ee;
+  width: 577px;
+
+  background: #fff;
+}
+.card-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+.card-title {
+  padding-left: 20px;
+
+  h5 {
+    color: #6d91ee;
+    font-family: $poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  p {
+    color: #22366a;
+    font-family: $poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  img {
+    padding-left: 5px;
+  }
+}

@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center mb-5">
+      <img src="/assets/pics/Group 539.png" />
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-4">
+        <form [formGroup]="contactUsForm">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Name"
+                formControlName="name"
+              />
+            </div>
+            <div class="col-12 mb-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Mail"
+                formControlName="mail"
+              />
+            </div>
+            <div class="col-12 mb-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Phone"
+                formControlName="phone"
+              />
+            </div>
+            <div class="col-12">
+              <button
+                (click)="sendContactData()"
+                type="button"
+                class="btn help-Btn"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-4">
+        <div class="col-12 mb-5">
+          <img src="/assets/pics/ic_round-mail.svg" />
+          <span>upskilling.eg1@gmail.com</span>
+        </div>
+        <div class="col-12">
+          <img src="/assets/pics/ic_round-call.svg" />
+          <span>+20 115 493 2137</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+@import "../../../../assets/styles/_variables.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  .row {
+    display: unset;
+  }
+}
+.card-img-top {
+  width: 385px;
+  height: 290px;
+}
+.card-body {
+  width: 385px;
+}
+.card {
+  margin-right: 20px;
+  border: none;
+}
+.card-title {
+  color: #324473;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px; /* 150% */
+}
+.card-text {
+  color: #324473;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  width: 325px;
+}
+.help-Btn {
+  border-radius: 71px;
+  background: $header-color;
+  width: 280px;
+  height: 86px;
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  font-family: $poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
